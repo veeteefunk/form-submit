@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.form-container {
+    margin-top: 2em;
+    background: lightgrey;
+    width: 300px;
+    margin: auto;
+    /* text-align: center; */
+}
+
+.form-container .title {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.form-container .title h1 {
+    padding-bottom: 5px;
+}
+
+button {
+    background-color: lightgreen;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0; 
+    color: white; 
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.data-container {
+    margin: 5px 20px;
+}
+
+.data-container p {
+    text-align: center;
+    font-size: 10px;
+    padding-bottom: 12px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+input[type="text"]{
+    padding: 5px 0;
+}
+input[type="email"]{
+    padding: 5px 0;
+}
+input[type="password"]{
+    padding: 5px 0;
+}
+
+
+.end {
+    text-align: center;
+    color: white;
+}
+
+.end p a {
+    color: lightgreen;
+}
